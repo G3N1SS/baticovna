@@ -1,0 +1,7 @@
+.container_footer{
+  display: grid;
+  grid-template-areas: 'title links'
+                       'buy .';
+  gap: 0 185px;
+  margin-bottom: 120px;
+}

@@ -1,0 +1,10 @@
+.why-us__title{
+    font-weight: 400;
+    font-size: 70px;
+    letter-spacing: 0.15em;
+    grid-area: title;
+    z-index: 99;
+    color: black;
+    position: relative;
+    display: inline-block;
+}

@@ -1,0 +1,7 @@
+.why-us__text{
+  max-width: 680px;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.15em;
+  grid-area: text;
+}

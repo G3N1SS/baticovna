@@ -1,0 +1,32 @@
+@keyframes appearing {
+    0%{
+        opacity: 0.7;
+        transform: scale(0.97);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes appearingFromRightSide {
+    0%{
+        opacity: 0.7;
+        transform: translateX(-8%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes appearingFromLeftSide {
+    0%{
+        opacity: 0.7;
+        transform: translateX(8%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

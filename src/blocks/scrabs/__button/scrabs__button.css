@@ -1,0 +1,31 @@
+.scrabs__button{
+    padding: 28px 130px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #d9d9d9;
+    text-transform: uppercase;
+    border: none;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.15em;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    transition: all .3s;
+    text-decoration: none;
+    color: black;
+    width: max-content;
+}
+
+.scrabs__button:hover{
+    opacity: 0.8;
+    color: white;
+    background-color: rgb(41, 40, 40);
+    transform: scale(1.05)
+}
+
+.scrabs__button:active{
+    opacity: 1;
+    color: black;
+    background: rgb(199, 199, 199);
+    transform: scale(0.9)
+}

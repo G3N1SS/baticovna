@@ -1,0 +1,5 @@
+.container_why-us{
+  display: grid;
+  grid-template-areas: 'text title'
+                       'text img';
+}

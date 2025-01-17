@@ -1,15 +1,21 @@
 import { useState } from 'react'
-import Header from './Header'
+import { Routes, Route } from 'react-router-dom'
+import MainPage from './MainPage'
+import Assortment from './Assortment'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div className="body">
-      <Header></Header>
-      </div>
-    </>
+    <Routes>
+      <Route path='/'
+        element={
+          <MainPage/>}
+      />
+      <Route path='/assortment'
+        element={
+          <Assortment/>}
+      />
+    </Routes>
   )
 }
 

@@ -1,0 +1,7 @@
+.footer__title{
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: 0.1em;
+    grid-area: title;
+    margin: 0 0 22px;
+}

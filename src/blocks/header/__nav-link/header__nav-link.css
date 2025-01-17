@@ -1,0 +1,33 @@
+.header__nav-link{
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: 0.15em;
+  text-decoration: none;
+  color: black;
+  transition: all .6s;
+  position: relative;
+}
+
+.header__nav-link:hover{
+  opacity: 0.7;
+  transform: scale(1.007);
+}
+
+.header__nav-link::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 1px;
+  width: 2%;
+  right: 0;
+  background-color: black;
+  transition: all .6s;
+  opacity: 0;
+}
+
+.header__nav-link:hover::after{
+  content: '';
+  width: 100%;
+  opacity: 1;
+  left: 0;
+}

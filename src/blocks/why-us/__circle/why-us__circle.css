@@ -1,0 +1,23 @@
+.why-us__circle{
+    position: absolute;
+    border-radius:100px;
+    width: 180px;
+    height: 180px;
+    background: white;
+    top:10%;
+    right: 26%;
+    z-index: 5;
+    display: inline-block;
+}
+
+.why-us__circle::after{
+    content: '';
+    position: absolute;
+    border-radius:100px;
+    width: 180px;
+    height: 180px;
+    background: #828282;
+    box-shadow: -3px 4px 4px 0 rgba(0, 0, 0, 0.35);
+    top:-54%;
+    left: 45%;
+}

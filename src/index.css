@@ -1,1 +1,59 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/font.css);
+@import url(./vendor/animations.css);
 @import url(./blocks/body/body.css);
+@import url(./blocks/page/page.css);
+@import url(./blocks/container/container.css);
+@import url(./blocks/container/_about/container_about.css);
+@import url(./blocks/container/_scrabs/container_scrabs.css);
+@import url(./blocks/container/_why-us/container_why-us.css);
+@import url(./blocks/container/_footer/container_footer.css);
+@import url(./blocks/bold/header__title-caption_bold.css);
+
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__logo/header__logo.css);
+@import url(./blocks/header/__title-caption/header__titile-caption.css);
+@import url(./blocks/header/__nav/header__nav.css);
+@import url(./blocks/header/__nav-link/header__nav-link.css);
+
+@import url(./blocks/header/__banner/header__banner.css);
+@import url(./blocks/header/__banner-image/header__banner-image.css);
+@import url(./blocks/header/__banner-title/header__banner-title.css);
+@import url(./blocks/header/__banner-title/_white/header__banner-title_white.css);
+
+@import url(./blocks/about/about.css);
+@import url(./blocks/about/__title/about__title.css);
+@import url(./blocks/about/__caption/about__caption.css);
+
+@import url(./blocks/about/__img/about__img.css);
+
+@import url(./blocks/scrabs/scrabs.css);
+@import url(./blocks/scrabs/__title/scrabs__title.css);
+@import url(./blocks/scrabs/__list/scrabs__list.css);
+
+@import url(./blocks/card/card.css);
+@import url(./blocks/card/__title/card__title.css);
+@import url(./blocks/card/__list/card__list.css);
+@import url(./blocks/card/__list-item/card__list-item.css);
+@import url(./blocks/card/__caption/card__caption.css);
+@import url(./blocks/card/__price/card__price.css);
+
+@import url(./blocks/scrabs/__button/scrabs__button.css);
+
+@import url(./blocks/why-us/why-us.css);
+@import url(./blocks/why-us/__circle/why-us__circle.css);
+@import url(./blocks/why-us/__img/why-us__img.css);
+@import url(./blocks/why-us/__text/why-us__text.css);
+@import url(./blocks/why-us/_title/why-us__title.css);
+@import url(./blocks/why-us/_title/_white/why-us__title_white.css);
+
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__button/footer__button.css);
+@import url(./blocks/footer/__icons/footer__icons.css);
+@import url(./blocks/footer/__inst/footer__inst.css);
+@import url(./blocks/footer/__links-title/footer__links-title.css);
+@import url(./blocks/footer/__links/footer__links.css);
+@import url(./blocks/footer/__logo-caption/footer__logo-caption.css);
+@import url(./blocks/footer/__logo/footer__logo.css);
+@import url(./blocks/footer/__title/footer__title.css);
+@import url(./blocks/footer/_tg/footer__tg.css);
